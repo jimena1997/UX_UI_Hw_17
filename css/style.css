@@ -9,10 +9,11 @@
     text-align: center;
 }
 header {
-    display: inline-block;
+    background-color: #d7dcd6;
 }
+
 nav {
-    width: 98%;
+    width: 72%;
     padding: 1%;
     background-color: #d7dcd6;
     text-align: right;
@@ -20,7 +21,7 @@ nav {
     font-family: 'Questrial', sans-serif;
 }
 
-ul {
+header ul {
     width: 50%;
     margin-left: auto;
 }
@@ -32,14 +33,12 @@ ul {
 
 .content {
     width: 500px;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 
 footer {
     background-color: #d7dcd6;
     padding: 1%;
-    position: absolute;
-    bottom: 10px;
     text-align: left;
     width: 98%;
     word-spacing: 30px;
@@ -89,4 +88,7 @@ h1 {
     font-family: 'Comfortaa', cursive;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
+}
+footer ul {
+   
 }
