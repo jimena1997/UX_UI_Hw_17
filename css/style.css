@@ -61,14 +61,20 @@ body {
 
 button {
     background-color: #849f80;
+    transition: background-color 0.5s ease;
     width: 150px;
     height: 30px;
     color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
     font-family: 'Questrial', sans-serif;
 
+}
+
+button:hover {
+background-color: black;
 }
 
 footer ul li {
@@ -89,6 +95,5 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
 }
-footer ul {
-   
-}
+
+/* HMK 18 CODE STARTS HERE */
